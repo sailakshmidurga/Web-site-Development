@@ -1,0 +1,99 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color:silver;
+}
+body{
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grandParent{
+  perspective: 200px;
+}
+.parent{
+  width: 334px;
+  height: 226px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s linear;
+}
+.parent:hover{
+  transform: rotateY(180deg);
+}
+.back{
+  top:0px;
+  width: 334px;
+  height: 226px;
+  background-image: linear-gradient(purple
+  ,rgb(167, 34, 56));
+  border-radius: 40px;
+  box-shadow: 2px 2px 3px 2px grey;
+  position: absolute;
+  backface-visibility: hidden;
+  transform: rotateY(180deg);
+}
+
+
+.cardContainer{
+  top:0px;
+  width: 334px;
+  height: 226px;
+  background-image: linear-gradient(purple
+  ,rgb(167, 34, 56));
+  border-radius: 40px;
+  box-shadow: 2px 2px 3px 2px grey;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.image{
+  width: 50px;
+  height: 50px;
+  border-radius: 35px;
+  position: relative;
+  top: 5px;
+  right: 10px;
+}
+.name{
+position: relative;
+top: 10px;
+}
+.mail a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+.mail{
+position: relative;
+top: 16px;
+}
+.number{
+position: relative;
+top: 21px;
+}
+.number span{
+  font-family: 'Poppins', sans-serif;
+}
+.address{
+position: relative;
+top: 23px;
+}
+.address span{
+  font-family: 'Poppins', sans-serif;
+}
+.github{
+position: relative;
+top: 5px;
+}
+.linkedin{
+  position: relative;
+  top: 27px;
+}
+.linkedin a{
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}

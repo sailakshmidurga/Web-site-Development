@@ -1,0 +1,12 @@
+.parent{
+  width: 200px;
+  height: 200px;
+  border: 5px solid red;
+  border-radius:0px 0px 100px 100px;
+}
+.child{
+  width:50%;
+  height: 50%;
+  border: 5px solid palevioletred;
+  border-radius: 100%;
+}

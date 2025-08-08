@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM -Retrivers</title>
+</head>
+<body>
+  <p>Paragraph-1</p>
+  <p>Paragraph-2</p>
+  <div class="demo"></div>
+  <span class="demo"></span>
+  <div id="demo-id"></div>
+<!-- 
+  we write the script tag st the end of the body tag because when wewant to manipulate the DOM it should be constructed first right after constructed only we retrive data or update. -->
+  <script>
+    console.log(document.getElementsByTagName("p"));
+    console.log(document.getElementsByClassName("demo"));
+    console.log(document.getElementById("demo-id"));
+  </script>
+</body>
+</html>
