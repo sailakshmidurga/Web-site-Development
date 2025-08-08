@@ -1,0 +1,70 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.logo{
+  width: 100px;
+  height: 40px;
+}
+.imageLogo{
+  width:90px;
+  height: 30px;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+header{
+  display: flex;
+  background-color: black;
+}
+
+.navBar{
+  width: 500px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.navBar nav{
+  display: flex;
+  justify-content: space-around;
+}
+.navBar nav a{
+  text-decoration: none;
+  color: silver;
+}
+.child2{
+  display: none;
+  margin-top: 10px;
+}
+.submenu{
+  margin-top: 4px;
+  width: 80px;
+  height: 50px;
+}
+.submenu:nth-child(even){background-color: grey;}
+.submenu:nth-child(odd){background-color:white;}
+.parent:hover .child2{
+   display: block;
+}
+.profile{
+  width: 60px;
+  height: 60px;
+  margin-left: 330px;
+  margin-right: 4px;
+  background-color: black;
+  border-radius: 30px;
+}
+.my_icon{
+  font-size: 25px;
+  margin-left: 18px;
+  margin-top: 15px;
+  color: silver;
+}
+.child2{
+  margin-top: 20px;
+  display: none;
+}
+
+.profile:hover .child2{
+  display: block;
+}

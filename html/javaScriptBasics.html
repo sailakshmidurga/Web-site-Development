@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    // console.log(4);
+    // var d = new Date();
+    // console.log(d);
+    // console.log(d.getFullYear());
+    // console.log(d.getMonth()+1);
+    // console.log(d.getDate());
+    // console.log(d.getHours());
+    // console.log(d.getMinutes());
+    // console.log(d.getSeconds());
+    m = {
+      99:2,
+      "THUB":100,
+      "start":function()
+      {
+        console.log(`This is a start function`);
+      }
+    }
+    console.log(m.THUB);
+    console.log(m[99]);
+    console.log(m.start);
+    console.log(Object.keys(m));
+    console.log(Object.values(m));
+    console.log(Object.entries(m));
+    Object.entries(m).map(ele=>{
+      console.log(ele);
+      console.log("Key:", ele[0],"value",ele[1]);
+    })
+    
+
+    var s = "StRinGR";
+    console.log(s.toLowerCase());
+    console.log(s.toUpperCase());
+    console.log(s.indexOf("R"));
+    console.log(s.replace('R',"24"));
+    console.log(s.replaceAll('R',"24"));
+
+    var  t ="T,H,U,B";
+    console.log(t.split(","));
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/menu_toggle.css">
+</head>
+<body>
+  <div class="menu" onclick="Open()">&#9776;</div>
+  <div class="menu_options">
+    <span onclick="Close()">&times;</span>
+    <div>Home</div>
+    <div>Contact</div>
+    <div>Pricing</div>
+    <div>Support</div>
+    <div>Services</div>
+  </div>
+
+  <script>
+    function Close()
+    {
+      document.getElementsByClassName("menu_options")[0].style = "left:-220px;"
+    }
+    function Open()
+    {
+      document.getElementsByClassName("menu_options")[0].style = "left:0px; top:0px;"
+    }
+  </script>
+</body>
+</html>

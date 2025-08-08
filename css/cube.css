@@ -1,0 +1,51 @@
+body{
+  height: 100svh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cube{
+  width: 200px;
+  height: 200px;
+  /* border: 2px solid white; */
+  position: relative;
+  animation: myanimation 5s infinite linear;
+  transform-style: preserve-3d;
+}
+.cube div{
+   width: 200px;
+  height: 200px;
+  /* background-color: red; */
+  position: absolute;
+  opacity: 0.7;
+}
+.left{
+  transform: rotateY(90deg) translateZ(100px);
+  background-color: mediumaquamarine;
+}
+.right{
+  transform: rotateY(90deg) translateZ(-100px);
+  background-color: bisque;
+}
+.top{
+  transform: rotateX(90deg) translateZ(-100px);
+  background-color: rgb(28, 107, 81);
+}
+.bottom{
+  transform: rotateX(90deg) translateZ(100px);
+  background-color: rgb(169, 55, 55);
+}
+.front{
+  transform: translateZ(100px);
+  background-color: cadetblue;
+}
+.back{
+  transform: translateZ(-100px);
+  background-color: rgb(62, 62, 152);
+}
+@keyframes myanimation{
+  100%{
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}

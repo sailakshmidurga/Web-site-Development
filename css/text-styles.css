@@ -1,0 +1,35 @@
+/* .para1{
+  text-align:justify;
+  text-indent: 3px;
+  text-decoration: underline;
+  text-decoration-color: aqua;
+  background-color: black;
+  color: aqua;
+  text-transform: uppercase;
+  line-height: 30px;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px rgba(0,255,255,0.5);
+} */
+*{
+  ove
+}
+.he1 .he2{
+text-decoration: underline;
+}
+.para1{
+  text-align: center;
+  text-decoration: underline;
+  line-height: 20px;
+  text-decoration-color:pink ;
+}
+.para2{
+  letter-spacing: 4px;
+  
+  color: green;
+  text-shadow: 2px 2px rgba(0,255,255,0.5);
+  line-height: 30px;
+}
+.para3{
+  word-spacing: 20px;
+  text-align: justify;
+}

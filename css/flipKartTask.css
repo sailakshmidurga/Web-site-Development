@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+header{
+  width: 100%;
+  height: 8svh;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.flipkartLogo{
+  width: 10%;
+  height: 8svh;
+  /* margin-left: 50px; */
+}
+.logo{
+width: 100%;
+height: 100%;
+}
+.search_input{
+    color: #696e79;
+    background-color: #f5f5f6;
+    flex-grow: 1;
+    height: 40px;
+    border: 0;
+    border-radius: 0 4px 4px 0;
+}
+
+.search_bar{
+    height: 40px;
+    min-width: 100px;
+    width: 40%;
+    display: flex;
+    align-items:center;
+}
+.search_icon{
+   box-sizing: content-box;
+   height: 20px;
+padding: 10px; 
+
+color: #282c3f;
+background-color: #f5f5f6;
+font-weight: 300;
+border-radius: 4px 0 0 4px;
+}
+.loginContainer{
+  width: 35%;
+  height: 8svh;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.login{
+width: 20%;
+height: 5svh;
+/* border: 2px solid black; */
+background-color: #f5f5f6;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.circle-user{
+  font-size: 25px;
+}
+.loginContainerText{
+  font-weight: 400;
+}
+.cart{
+width: 20%;
+height: 5svh;
+/* border: 2px solid black; */
+background-color: #f5f5f6;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.seller{
+width: 25%;
+height: 5svh;
+/* border: 2px solid black; */
+background-color: #f5f5f6;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.contentContainer{
+  width: 100%;
+  height: 90svh;
+  /* border: 2px solid black; */
+  background-color: #e8e8f0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+ padding: 20px;
+}
+.hairSkin{
+  height: 90svh;
+  background-color: white;
+  border-radius: 5px;
+}
+.fashionTops{
+  height: 90svh;
+  background-color: white;
+  border-radius: 5px;
+}
+.shopBanner{
+  height: 90svh;
+  background-color: white;
+  border-radius: 5px;
+}
+.HeadingContainer{
+  width: 100%;
+  height: 5svh;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Heading{
+  font-weight: bold;
+}
+.downAngleContainer{
+ width: 8%;
+ height:5svh;
+ background-color: blue;
+ border-radius:50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-weight: bold;
+ color: white;
+}
+.ImagesContainer{
+  width: 100%;
+  height: 85svh;
+  border: 2px solid black;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.i1,.i2,.i3,.i4{
+  border: 2px solid rgb(200, 191, 191);
+}
+.h1{
+  width: 100%;
+  height: 100%;
+}
+.banner{
+ width: 100%;
+ height: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:375px)
+{
+  .loginContainerText{
+    font-size: 0.5rem;
+  }
+  .circle-user{
+    font-size: 0.5rem;
+  }
+  .cartIcon{
+    font-size: 0.5rem;
+  }
+  .angle-down{
+    font-size: 0.5rem;
+  }
+  .search_bar{
+    min-width: 50px;
+  }
+}
+
+

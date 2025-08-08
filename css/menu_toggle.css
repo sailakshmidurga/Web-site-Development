@@ -1,0 +1,45 @@
+body{
+  /* background: linear-gradient(135deg, rgba(19, 39, 67, 0.8), rgba(31, 64, 104, 0.9)); */
+  background-color: #2a9d8f;
+}
+.menu{
+  font-size: 25px;
+  color: white;
+}
+.menu_options{
+  width: 220px;
+  height: 100svh;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  /* background: linear-gradient(145deg, #0a1d3a, #102944); */
+  background-color: black;
+  position: absolute;
+  top:0px;
+  left: 0px;
+  transition: left 0.5s linear;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}
+.menu{
+  cursor: pointer;
+}
+.menu_options div{
+  cursor: pointer;
+  color: white;
+  align-self: stretch;
+  padding: 10px 15px;
+  border-radius: 20px;
+}
+.menu_options span{
+  color: white;
+  width: fit-content;
+  font-size: 50px;
+}
+.menu_options div:hover{
+  /* border-radius: 5px; */
+  background-color:rgba(255,255,255,0.2);
+  border: 2px solid  #00f2fe;
+  transform: scale(1.1);
+}

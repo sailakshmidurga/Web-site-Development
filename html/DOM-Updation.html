@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/DOM-Updation.css">
+</head>
+<body>
+  <div class="parent">
+  <div class="box1"></div>
+  <div class="buttons_div">
+  <button class="top" onclick="fun1()">Top</button>
+  <button class="bottom" onclick="fun2()">Bottom</button>
+  <button class="left" onclick="fun3()">Left</button>
+  <button class="right" onclick="fun4()">Right</button>
+  </div>
+  </div>
+
+  <script>
+    function fun1()
+    {
+      document.getElementsByClassName("parent")[0].style="justify-content:start;"
+    }
+    function fun2()
+    {
+      document.getElementsByClassName("parent")[0].style="justify-content:end;"
+    }
+    function fun3()
+    {
+      document.getElementsByClassName("parent")[0].style="align-items:start;"
+    }
+    function fun4()
+    {
+      document.getElementsByClassName("parent")[0].style="align-items:end;"
+    }
+  </script>
+</body>
+</html>

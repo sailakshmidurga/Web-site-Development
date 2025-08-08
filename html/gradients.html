@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Gradients</title>
+  <style>
+    .linearGradient{
+      width: 200px;
+      height: 200px;
+      background-image: linear-gradient(to top, white ,lightgreen,skyblue
+      );
+    }
+
+    .radicalGradient{
+      width: 200px;
+      height: 200px;
+      background-image: radial-gradient(red,yellow,orange);
+    }
+    .repeat{
+      width: 200px;
+      height: 200px;
+      background-image: repeating-radial-gradient(red 5%,blue 10%, black 15% );
+      position: relative;
+    }
+
+    .conicGradient{
+      width: 200px;
+      height: 200px;
+      background-image:conic-gradient(at 50% 50%,red,green,black);
+      border-radius: 50%;
+    }
+    .box-shadow{
+      width: 100px;
+      height: 100px;
+      background-color: yellow;
+      box-shadow: 0px 0px 10px 10px orange;
+      border-radius: 50px;
+    }
+  </style>
+</head>
+<body>
+  <div class="linearGradient"></div>
+  <div class="radicalGradient"></div>
+  <div class="repeat"></div>
+  <div class="conicGradient"></div>
+  <div class="box-shadow">
+  </div>
+</body>
+</html>

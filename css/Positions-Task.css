@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.sky{
+  width:100% ;
+  height: 250px;
+  background-color: skyblue;
+}
+
+.road{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+.blockContainer{
+  position: relative;
+  top: 50%;
+ 
+}
+
+.block{
+  width: 100px;
+  height: 10px;
+  background-color: white;
+  position: absolute;
+}
+.car{
+  position: relative;
+  left: 80%;
+  top: -50px;
+}
+.top{
+  width: 103px;
+  height: 49px;
+  background-color: red;
+  border-radius: 40px 15px 0px 0px;
+  border: 2px solid black;
+}
+
+.window{
+  width: 46px;
+  height: 36px;
+  background-color:rgb(198, 233, 248);
+  border: 2px solid red;
+  border-radius:40px 15px 0px 0px ;
+}
+.bottom{
+  width: 102px;
+  height: 10px;
+  background-color: red;
+  border-radius:2px;
+  border-bottom: 2px solid black;
+   border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.wheelContainer{
+  position: relative;
+}
+.wheel{
+width: 30px;
+height: 30px;
+border-radius: 21px;
+background-color: gray;
+border: 2px solid black;
+position: absolute;
+top: -10px;
+box-shadow: 2px 2px 2px 2px black;
+}
+.sky{
+  position: relative;
+}
+
+.sun{
+  /* width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: orange; */
+
+  width: 100px;
+      height: 100px;
+      background-color: yellow;
+      box-shadow: 0px 0px 10px 10px orange;
+      border-radius: 50px;
+  position:absolute;
+  left: 85%;
+  top: 9px;
+}
+ 
+.topTree1{
+  width: 215px;
+  height: 160px;
+  background-color: green;
+  border-radius: 100px;
+  position: absolute;
+  top:44px;
+}
+
+.bottomTree1{
+width: 50px;
+height: 116px;
+background-color:chocolate;
+position: absolute;
+top: 54%;
+left: 8%;
+}
+
+.topTree2{
+  width: 215px;
+  height: 160px;
+  background-color: green;
+  border-radius: 100px;
+  position: absolute;
+  left: 31%;
+  top: 44px;
+}
+.bottomTree2{
+width: 50px;
+height: 116px;
+background-color:chocolate;
+position: absolute;
+top: 54%;
+left: 39%;
+}
+
